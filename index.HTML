@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project05</title>
+    <link rel="stylesheet" href="./STYLE05.CSS">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<body>
+    <div id="complete">
+        <div id="top">
+            <div class="header1">
+                <div>All Important Websites, Journal Papers, Materials are avaible here....Keep stay on......</div>
+           </div>
+            <div id="header2">
+                <div class="logo">
+                    <span class="material-symbols-outlined">
+                        </span>
+                        <h1>DoesUKnow</h1>
+                </div>
+                <div class="links">
+                    <div class="nav_links">
+                        <ul>
+                            <li><div><button class="btnH btn1" href="http://127.0.0.1:5500/" target="_self">Home</button>
+                            </div></li>
+                            <li><div><button class="btn_2" href="" target="_self">
+                                <div>
+                                    Courses
+                                </div>
+                                <div>
+                                    <div><select name="list" id="choose">
+                                        one
+                                    </select></div>
+                                </div> </button></div></li>
+                            <li><div> <button class="btnH btn3"  href="" target="_self">Material</button> </div></li>
+                            <li><div><button class="btnH btn4"  href="" target="_self">Videos</button></div></li>
+                            <li><div> <button class="btnH btn5"  href="" target="_self">Exercises</button> </div></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <ul>
+                            <li><i class='bx bx-search' ></i></li>
+                            <li><div><button class="btnH btn6">SignIn</button></div></li>
+                            <li><div><button class="btnH btn7" onclick="document.getElementById('login-form').style.display = 'block'" style="width:auto
+                            ;">Login</button></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <div id="login-form" class="login-page">
+            <div class="form-box">
+                <div class="btn-box"></div>
+                    <div id="btn"></div>
+                    <button type="button" onclick="login()" class="toggle-btn">login</button>
+                    <button type="button" onclick="register()" class="toggle-btn">Register</button>
+                </div>
+                <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="password" required>
+                    <input type="checkbox" class="check-box" ><span>Remember password</span>
+                    <button type="submit" class="submit-btn">Log-in</button>
+                </form>
+                <form id="register" class="input-group-register">
+                    <input type="text" class="input-field" placeholder="first-name" required>
+                    <input type="text" class="input-field" placeholder="last-name" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                    <input type="password" class="input-field" placeholder="Enter password" required>
+                    <input type="password" class="input-field" placeholder="Confirm password" required>
+                    <input type="checkbox" class="check-box" ><span>I agree above</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+        </div>
+        <main id="main"> 
+            <section class="main01">
+                <div class="left">
+                    <div class="Software">
+                        <p>CODING SOFTWARES</p>
+                        <ul>
+                            <li><i class='bx bxl-python'>Python</i></li>
+                            <li><img src="" width="20px"><i class='bx bxl-java' >Java</i> </li>
+                            <li><img src="" width="20px"><i class='bx bxl-html5' >HTML</i></li>
+                            <li><img src="" width="20px"><i class='bx bxl-css3' >CSS</i></li>
+                            <li><img src="" width="20px"><i class='bx bxl-javascript' ></i> Java Script</li>
+                            <li><img src="" width="20px"> <i class='bx bxl-react' ></i>ReactJS</li>\
+                            <li><img src="" width="20px"><i class='bx bxl-angular' ></i> Angular</li>
+                            <li><img src="./MySQL.png" width="25px"> MySQL</li>
+                            <li><img src="" width="20px"><i class='bx bxl-bootstrap' ></i> Bootstarp</li>
+                            <li><img src="./node.js" width="20px"> Node.JS</li>
+                            <li><img src="" width="20px"> <i class='bx bxl-postgresql' ></i>postgreSQl </li>
+                            <li><img src="" width="20px"> MS Excel</li>
+                            <li><img src="" width="20px"> AWS</li>
+                            <li><img src="" width="20px"> Cloud Computing</li>
+                        </ul>
+                    <br>
+                    </div>
+                        <div class="MechTool">
+                            <p>Mech Tool</p>
+                            <li>Catia</li>
+                            <li>Solid Works</li>
+                            <li>AutoCad</li>
+                            <li>Solid Edge</li>
+                            <li>UG NX</li>
+                            <li>Inventor</li>
+                        </div>
+                        <div class="Finance">
+                            <p>Finance</p>
+                            <li>Risk Managemnt</li>
+                            <li>Portfolio Managemnt</li>
+                            <li>Financial Managemnt</li>
+
+                        </div>
+                        <div class="photo">PHOTO EDITING</div>
+                            <li>Adobe Photo Editor</li>
+                            <li>Wondershare</li>
+
+                       
+
+                        
+                </div>
+                <div class="centre">
+                    <div class="ctn ctn1">
+                        <h2>BE - Mechanical</h2>
+                        <p>Complete all sems notes, problems, previous year questions paper are avaible here</p>
+                        <button class="Func"><a href="https://www.w3schools.com/js/js_function_definition.asp" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn2">
+                        <h2>MBA - Finance</h2>
+                        <p>Complete all sems notes, problems, previous year questions paper are avaible here</p>
+                        <button class="Func"><a href="https://www.w3schools.com/js/js_function_definition.asp" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn3">
+                        <h2>Python Backend Programming</h2>
+                        <p>A function is a block of code that performs a specific task.</p>
+                        <button class="Func"><a href="" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn4">
+                        <h2>Java Backend Programming</h2>
+                        <p>A function is a block of code that performs a specific task.</p>
+                        <button class="Func"><a href="" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn5">
+                        <h2>HTML</h2>
+                        <p>A function is a block of code that performs a specific task.</p>
+                        <button class="Func"><a href="" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn6">
+                        <h2>JavaScript</h2>
+                        <p>A function is a block of code that performs a specific task.</p>
+                        <button class="Func"><a href="" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn7">
+                        <h2>React.JS</h2>
+                        <p>A function is a block of code that performs a specific task.</p>
+                        <button class="Func"><a href="" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn8">
+                        <h2>MySQL</h2>
+                        <p>A function is a block of code that performs a specific task.</p>
+                        <button class="Func"><a href="" target="_blank">Know More</a> </button>
+                    </div>
+                    <div class="ctn ctn9">
+                        <h2>Mechanical Designing Tools</h2>
+                        <p>A function is a block of code that performs a specific task.</p>
+                        <button class="Func"><a href="" target="_blank">Know More</a> </button>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <div class="infor">
+                        <div class="py_rig">
+                            <p>Python</p>
+                            <li>Interview Quiz sample </li>
+                            <li>Notes</li>
+                            <li>Projects</li>
+                        </div>
+                        <div class="java_right">
+                            <p>Java</p>
+                            <li>Interview Quiz</li>
+                            <li>Notes</li>
+                            <li>Projects</li>
+                        </div>
+                        <div class="html_right">
+                            <p>HTML</p>
+                            <li>Interview Quiz</li>
+                            <li>Notes</li>
+                            <li>Projects</li>
+                        </div>
+                        <div class="js_right">
+                            <p>Java Script</p>
+                            <li>Interview Quiz</li>
+                            <li>Notes</li>
+                            <li>Projects</li>
+                        </div>
+                        <div class="Mech_right">
+                            <p>Mechanical </p>
+                            <li>Interview Quiz</li>
+                            <li>Notes</li>
+                            <li>Projects</li>
+                        </div>
+                        <div class="Mysql_right">
+                            <p>Mechanical </p>
+                            <li>Interview Quiz</li>
+                            <li>Notes</li>
+                            <li>Projects</li>
+                        </div>
+                        <div class="react_right">
+                            <p>Mechanical </p>
+                            <li>Interview Quiz</li>
+                            <li>Notes</li>
+                            <li>Projects</li>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+         <div id="footer">
+            <div class="f_links">
+                <div class="f_nav_links">
+                        <ul>
+                            <li><div>
+                                <h3 class="Address">Addres</h3>
+                                <p>Majestic, Bengaluru - 560009</p>
+                            </div></li>
+                            <li><div><button class="f_btnH fbtn1">Facebook</button></div></li>
+                            <li><div> <button class="f_btnH fbtn2">Instagram</button> </div></li>
+                            <li><div><button class="f_btnH fbtn3">Twitter</button></div></li>
+                        </ul>
+                </div>
+                <div class="search">
+                        <p>Contact Us</p>
+                        <p>+91-000000000</p>
+                        <p>Email ID: xxxxx@gmail.com</p>
+                </div>
+            </div>
+         </div>
+        </main>
+        
+
+        </div>
+    </div>
+    
+    
+  
+</body>
+
+</html>
